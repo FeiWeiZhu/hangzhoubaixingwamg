@@ -1,0 +1,166 @@
+.main {
+  width: 100%;
+  height: 592px;
+  margin-bottom: 72px;
+}
+.main .main1 {
+  margin: 0 auto;
+  width: 1200px;
+  height: 592px;
+}
+.main .main1 .main2 {
+  padding-top: 92px;
+  width: 1200px;
+  height: 184px;
+  text-align: center;
+}
+.main .main1 .main2 label {
+  margin-top: 8px;
+  display: block;
+  font-size: 14px;
+  color: #333;
+}
+.main .main1 .main2 .main3 {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 500px;
+  border: 1px solid #dcdcdc;
+  background-color: #fff;
+}
+.main .main1 .main2 .main3 .Img {
+  position: absolute;
+  top: -164px;
+  right: 0;
+}
+.main .main1 .main2 .main3 >div >a {
+  float: left;
+  display: block;
+  width: 249px;
+  height: 50px;
+  color: #333;
+  font-size: 16px;
+  line-height: 50px;
+}
+.main .main1 .main2 .main3 >div >a.hov:hover {
+  color: #f46;
+}
+.main .main1 .main2 .main3 >div >a.aDiv {
+  background-color: #ededed;
+}
+.main .main1 .main2 .main3 >div >a.aa {
+  background-color: #ededed;
+}
+.main .main1 .main2 .main3 >div >a.aa:hover {
+  color: #f46;
+}
+.main .main1 .main2 .main3 >div >a.bb {
+  background-color: #fff;
+}
+.main .main1 .main2 .main3 .main4.one {
+  padding: 26px;
+  width: 498px;
+  height: 338px;
+  display: none;
+}
+.main .main1 .main2 .main3 .main4.one span {
+  margin: 0 auto;
+  padding: 16px 0;
+  display: block;
+  width: 310px;
+  height: 76px;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #333;
+  text-align: left;
+}
+.main .main1 .main2 .main3 .main4.one .ipt {
+  margin: 0 auto;
+  padding: 16px 0;
+  width: 310px;
+  height: 78px;
+}
+.main .main1 .main2 .main3 .main4.one .ipt input {
+  padding: 8px;
+  width: 310px;
+  height: 46px;
+  font-size: 16px;
+  border-radius: 2px;
+  border: 1px solid #aaa;
+}
+.main .main1 .main2 .main3 .main4.one .ipt input:focus {
+  outline: 0;
+  border: 1px solid #00d1c1;
+}
+.main .main1 .main2 .main3 .main4.one .sbm {
+  margin: 0 auto;
+  padding: 12px 0;
+  width: 310px;
+  height: 70px;
+}
+.main .main1 .main2 .main3 .main4.one .sbm button {
+  width: 310px;
+  height: 46px;
+  color: #ccc;
+  border-radius: 2px;
+  border: 1px solid #ececec;
+  background-color: #fafafa;
+  cursor: no-drop;
+}
+.main .main1 .main2 .main3 .main4.one p {
+  margin: 0 auto;
+  padding: 12px 0;
+  width: 310px;
+  height: 64px;
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: left;
+}
+.main .main1 .main2 .main3 .main4.one p a {
+  color: #f46;
+}
+.main .main1 .main2 .main3 .main4.one p a:hover {
+  text-decoration: underline;
+}
+.main .main1 .main2 .main3 .main4.two {
+  position: relative;
+  padding: 26px;
+  width: 498px;
+  height: 292px;
+}
+.main .main1 .main2 .main3 .main4.two .bigDiv {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 18px;
+  width: 310px;
+  height: 210px;
+}
+.main .main1 .main2 .main3 .main4.two .bigDiv .imgDiv {
+  margin: 0 auto;
+  width: 160px;
+  height: 160px;
+  border: 1px solid #aaa;
+}
+.main .main1 .main2 .main3 .main4.two .bigDiv .txt {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #333;
+}
+.main .main1 .main2 .main3 .main4.two .bigDiv1 {
+  position: absolute;
+  top: 26px;
+  left: 150px;
+  opacity: 0;
+}
+.main .main1 .main2 .main3 .main4.two .txt1 {
+  margin-top: 12px;
+}
+.main .main1 .main2 .main3 .main4.two .txt1 >span {
+  font-size: 14px;
+  line-height: 19px;
+  color: #999;
+}
+.main .main1 .main2 .main3 .main4.two .txt1 >span:hover {
+  cursor: help;
+}

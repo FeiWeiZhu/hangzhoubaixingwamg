@@ -1,0 +1,1249 @@
+body
+	background-color rgb(238,239,241)	
+.full
+	width 100%
+	&.topNav	
+		border-bottom 2px solid rgb(255,68,102)
+	.nav
+		width 1200px
+		height 56px
+		margin 0 auto
+		padding 0 4px
+		.left
+			float left
+			position relative
+			width 760px
+			li
+				display inline
+				a
+					padding 0 5px
+					font-size 14px
+					line-height 56px	
+					color rgb(102,102,102)
+					&:hover
+						color rgb(255,68,102)
+						text-decoration underline			
+		.right
+			float right
+			li
+				display inline
+				height 20px
+				padding 2px 10px
+				line-height 56px
+				border-right 1px solid rgb(192,192,192)
+				&.last
+					border-right none
+				a
+					padding 0 5px
+					font-size 14px
+					line-height 56px
+					color rgb(102,102,102)
+					&.tg
+						position relative
+						padding-right 17px
+						> i
+							position absolute
+							top 0
+							right 0
+							line-height 1
+					&.hz
+						position relative
+						padding-right 17px
+						> i
+							position absolute
+							top 0
+							right 0
+							line-height 1
+				&.ct
+					position relative
+					.downDiv
+						padding 5px 0
+						position absolute
+						top 20px
+						left 0
+						width 160px
+						height 192px
+						border 1px solid rgb(196,196,196)
+						background-color rgb(255,255,255)
+						z-index 1
+						display none
+						.lt
+							padding 0 10px
+							display block
+							text-align left
+							line-height 30px
+							color rgb(102,102,102)
+							&:hover
+								background-color rgb(240,240,240)
+					&:hover .downDiv
+						display block
+						
+				&.tc
+					position relative
+					.downDiv1
+						padding 5px 0
+						position absolute
+						top 20px
+						left 0
+						width 160px
+						height 132px
+						border 1px solid rgb(196,196,196)
+						background-color rgb(255,255,255)
+						z-index 1
+						display none
+						.lt
+							padding 0 10px
+							display block
+							text-align left
+							line-height 30px
+							color rgb(102,102,102)
+							&:hover
+								background-color rgb(240,240,240)
+					&:hover .downDiv1
+						display block
+					
+	.location
+		width 100%
+		height 115px
+		background-color rgb(255,255,255)
+		.breadcrumb
+			position relative
+			width 1200px
+			height 115px
+			margin 0 auto
+			h1
+				position relative
+				width 164px
+				height 115px
+				line-height 115px
+				span
+					position absolute
+					bottom 13px
+					left 0
+					display inline-block
+					width 164px
+					font-size 14px
+					line-height 32px
+					text-align center
+					color rgb(102,102,102)
+			.head_search	
+				position absolute	
+				top 24px
+				left 300px		
+				.ipt
+					float left 
+					padding 0 15px
+					width 480px
+					height 45px
+					line-height 45px
+					fone-size 14px
+					border-radius 2px					
+					border 1px solid rgb(255,68,102)					
+					&:focus
+						box-shadow 0 0 5px rgb(255,68,102)
+						outline 0
+				.but
+					float left
+					width 60px
+					height 45px
+					font-size 18px
+					border-radius 2px
+					border none
+					color rgb(255,255,255)
+					font-size 16px
+					background-color rgb(255,68,102)
+					cursor pointer
+				.newline
+					display inline-block
+					margin-top 10px
+					width 540px
+					height 20px
+					a
+						padding 0 15px
+						font-size 14px
+						border-right 1px solid rgb(190,190,190)
+						color rgb(190,190,190)
+						&:nth-child(6)
+							border-right none
+						&:hover
+							text-decoration underline
+			.pull_right
+				position absolute
+				right 0
+				top 0
+				width 180px
+				height 98px
+				text-align center				
+				a
+					display block
+					font-size 14px
+					&.post
+						margin-top 24px
+						height 44px
+						line-height 42px
+						border-radius 2px
+						background-color rgb(255,68,102)
+						color rgb(255,255,255)
+						&:hover
+							background-color rgb(226,39,84)
+					&#manage
+						margin-top 12px
+						color rgb(190,190,190)
+						&:hover
+							color rgb(102,102,102)
+	.container
+		width 100%
+		height 47px
+		background-color rgb(255,255,255)					
+		.main-nav
+			width 1200px
+			height 47px
+			margin 0 auto
+			a
+				float left
+				display block
+				width 108px
+				height 47px
+				text-align center
+				line-height 47px
+				font-size 18px
+				&.home
+					background-color rgb(255,68,102)
+					color rgb(255,255,255)
+				&:not(.home):hover
+					color rgb(255,68,102)
+					text-decoration underline
+	.home_row
+		margin 0 auto
+		margin-top 24px				
+		width 1200px
+		.home_box	
+			margin-right 20px
+			float left
+			width 224px
+			height 510px
+			border 1px solid rgb(222,222,222)
+			background-color rgb(255,255,255)
+			.ts
+				padding-top 7px
+				padding-left 22px				
+				width 224px
+				height 42px
+				background-color rgb(80,177,227)
+				> i
+					float left
+					margin-right 8px
+				> h1
+					float left
+					font-size 18px
+					font-weight 700
+					line-height 32px
+					// vertical-align top
+					color rgb(255,255,255)
+			.ts1
+				margin 15px
+				width 192px
+				height 297px
+				.txt
+					float left
+					display block
+					width 96px
+					height 100px
+					text-align center	
+					&:hover
+						text-decoration underline				
+					h2
+						display inline
+						margin 55px 0 11px
+						font-size 14px
+						color rgb(51,51,51)
+			.ts2
+				position relative
+				margin-top 16px
+				width 188px
+				height 124px
+				overflow hidden
+				.ts3
+					position absolute
+					width 940px
+					height 124px
+					border 1px sloid
+					 img
+						float left
+				.ts4
+					position absolute
+					bottom 0
+					width 100%
+					height 20px
+					text-align center
+					> i
+						margin 5px
+						display inline-block
+						border-radius 50%
+						background-color rgb(153,153,153)
+						width 9px
+						height 9px
+						cursor pointer 
+						&.on
+							background-color rgb(0,204,206)
+			.rssj
+				display block
+				padding-top 7px
+				padding-left 22px				
+				width 224px
+				height 42px
+				background-color rgb(250,134,134)
+				> i
+					float left
+					margin-right 8px
+				> h1
+					float left
+					font-size 18px
+					font-weight 700
+					line-height 32px
+					// vertical-align top
+					color rgb(255,255,255)
+			.rssj1
+				position relative
+				margin 16px
+				width 192px
+				height 297px
+				a
+					float left
+					padding-left 6px
+					width 96px
+					height 33px
+					color rgb(51,51,51)
+					line-height 33px
+					font-size 14px
+					&:hover
+						text-decoration underline
+					&.gd
+						position relative
+						border 1px solid rgb(255,255,255)
+						color rgb(41,191,179)	
+						z-index 2
+						&:hover	
+							// line-height 31px		
+							// padding-left 5px		
+							border 1px solid rgb(222,222,222)
+							border-bottom 1px solid rgb(255,255,255)
+						&:hover+.rssj2
+							display block
+				.rssj2
+					position absolute
+					left -16px
+					top 296px
+					padding 16px
+					width 416px
+					height 120px
+					border 1px solid rgb(222,222,222)
+					background-color rgb(255,255,255)
+					z-index 1
+					display none
+					overflow hidden
+					transition height .5s
+					&:hover
+						display block
+					.rssj3
+						width 384px
+						height 104px
+							
+					.rssj4
+						width 384px
+						height 106px
+						h1
+							margin-left 4px
+							width 106px
+							height 33px
+							font-size 16px
+							font-weight 700
+							color rgb(51,51,51)
+							line-height 33px
+					.rssj5
+						width 384px
+						height 106px	
+						h1
+							margin-left 4px
+							width 106px
+							height 33px
+							font-size 16px
+							font-weight 700
+							color rgb(51,51,51)
+							line-height 33px	
+					i
+						position absolute
+						left 178px
+						bottom -14px
+						width 28px
+						height 28px
+						border-radius 50%
+						border 1px solid rgb(208,208,208)
+						background-color rgb(255,255,255)						
+			.rssj6
+				position relative
+				margin 0 16px 16px
+				padding 2px
+				width 192px
+				height 126px
+				.img1
+					position absolute
+					top 2px
+					right 2px
+				.img2
+					position absolute
+					bottom 0
+					right 2px
+				
+			.rsc
+				display block
+				padding-top 7px
+				padding-left 22px				
+				width 224px
+				height 42px
+				background-color rgb(89,208,114)
+				> i
+					float left
+					margin-right 8px
+				> h1
+					float left
+					font-size 18px
+					font-weight 700
+					line-height 32px
+					// vertical-align top
+					color rgb(255,255,255)		
+		.last_box
+			float right
+			width 468px
+			height 510px
+			border 1px solid rgb(222,222,222)
+			background-color rgb(255,255,255)
+			.rczp
+				display block
+				padding-top 7px
+				padding-left 22px				
+				width 466px
+				height 42px
+				background-color rgb(80,177,227)
+				> i
+					float left
+					margin-right 8px
+				> h1
+					float left
+					font-size 18px
+					font-weight 700
+					line-height 32px
+					// vertical-align top
+					color rgb(255,255,255)
+				> .num
+					float left	
+					font-size 14px
+					color rgb(255,255,255)
+					line-height 32px
+				> .rwm
+					position relative
+					float left
+					margin-right -22px
+					width 95px
+					height 30px
+					font-size 14px
+					line-height 32px
+					color rgb(255,255,255)
+					margin-left 10px
+					&:hover .bigImg
+						display block
+					> .bigImg
+						position absolute
+						left 0
+						top 30px
+						width 162px
+						height 217px
+						border 1px solid rgb(204,204,204)
+						background-color rgb(255,255,255)
+						display none
+						span
+							display block
+							text-align center
+							font-size 14px
+							line-height 1.4
+							color rgb(102,102,102)
+							margin-top -12px
+				> .rwm1
+					margin-top 8px
+					margin-left 3px
+			.rczp1
+				margin 6px 15px 0
+				width 436px
+				height 452px
+				.rczp2
+					padding 6px 0
+					width 436px
+					height 80px
+					border-bottom 1px dashed rgb(222,222,222)
+					h1
+						float left 
+						padding-left 6px
+						width 108px
+						height 33px
+						color rgb(51,51,51)
+						font-size 16px
+						font-weight 700
+						line-height 33px
+					a
+						float left 
+						display block
+						padding-left 6px
+						width 108px
+						height 33px
+						color rgb(51,51,51)
+						font-size 14px
+						line-height 33px
+						&.gd
+							color rgb(41,191,179)
+						&:hover
+							text-decoration underline
+				.rczp4
+					height 245px
+				.rczp5
+					height 46px
+					border none
+						
+						
+	.home-col-3
+		float left
+		width 712px
+		height 340px
+		border 1px solid rgb(222,222,222)
+		background-color rgb(255,255,255)
+		.bdfw
+			float left
+			width 194px
+			height 340px
+			>a
+				display block
+				padding-left 8px
+				width 194px
+				height 34px 
+				background-color rgb(89,208,114)
+				i
+					float left
+					margin-top 8px
+					margin-right 8px
+				h1
+					float left
+					font-size 18px
+					font-weight 700
+					line-height 34px
+					color rgb(255,255,255)
+			.bdfw1
+				padding 14px 10px 0
+				width 192px
+				height 288px
+				border-right 1px dashed rgb(222,222,222)
+				>h1
+					float left
+					padding-left 10px
+					width 172px
+					height 34px
+					font-size 16px
+					font-weight 700
+					line-height 34px
+					color rgb(51,51,51)
+				>a
+					padding-left 10px
+					float left
+					display block
+					width 84px
+					height 34px
+					font-size 14px
+					line-height 34px
+					&:hover
+						color rgb(255,68,102)
+						text-decoration underline
+		.bdfw2
+			float left
+			padding 14px 10px 0
+			width 194px
+			height 340px
+			.bdfw3
+				width 192px
+				height 308px
+				border-right 1px dashed rgb(222,222,222)
+				>h1
+					float left
+					padding-left 10px
+					width 172px
+					height 34px
+					font-size 16px
+					font-weight 700
+					line-height 34px
+					color rgb(51,51,51)
+				>a
+					padding-left 10px
+					float left
+					display block
+					width 84px
+					height 34px
+					font-size 14px
+					line-height 34px
+					&:hover
+						color rgb(255,68,102)
+						text-decoration underline			
+		.bdfw4
+			float left
+			padding 14px 10px 0
+			width 107px
+			height 340px
+			.bdfw5
+				width 86px
+				height 308px
+				border-right 1px dashed rgb(222,222,222)
+				>h1
+					float left
+					padding-left 10px
+					width 172px
+					height 34px
+					font-size 16px
+					font-weight 700
+					line-height 34px
+					color rgb(51,51,51)
+				>a
+					padding-left 10px
+					float left
+					display block
+					width 84px
+					height 34px
+					font-size 14px
+					line-height 34px
+					&:hover
+						color rgb(255,68,102)	
+						text-decoration underline
+			&.bdfw8
+				.bdfw9
+					border none					
+	.home-col-2
+		position relative
+		float right
+		width 468px
+		height 340px
+		border 1px solid rgb(222,222,222)
+		background-color rgb(255,255,255)
+		.swfw
+			width 365px
+			height 340px
+			>a
+				display block
+				padding-left 8px
+				width 194px
+				height 34px
+				background-color rgb(75,176,229)
+				i
+					float left 
+					margin-top 8px
+					margin-right 8px
+				h1
+					float left
+					font-size 18px
+					font-weight 700
+					line-height 34px
+					color rgb(255,255,255)
+			.swfw1
+				padding 16px 10px 0
+				widht 365px
+				height 290px
+				border-right 1px dashed rgb(222,222,222)
+				>h1
+					padding-left 10px
+					width 172px
+					height 34px
+					font-size 16px
+					font-weight 700
+					line-height 34px
+					color rgb(51,51,51)
+				>a
+					padding-left 10px
+					float left
+					display block
+					width 84px
+					height 34px
+					font-size 14px
+					line-height 34px
+					&:hover
+						color rgb(255,68,102)
+						text-decoration underline
+		.swfw2
+			position absolute
+			bottom 0
+			right 0
+			padding-left 10px
+			width 104px
+			height 290px
+			>h1
+				padding-left 10px
+				width 172px
+				height 34px
+				>a					
+					font-size 16px
+					font-weight 700
+					line-height 34px					
+					color rgb(51,51,51)
+					&:hover
+						color rgb(255,68,102)
+			>a
+				padding-left 10px
+				display block
+				width 82px
+				height 34px
+				font-size 14px
+				line-height 34px
+				&:hover
+					color rgb(255,68,102)
+					text-decoration underline
+			
+	.home-box
+		float left
+		width 224px
+		height 270px
+		border 1px solid rgb(222,222,222)
+		background-color rgb(255,255,255)
+		&:not(:last-of-type)
+			margin-right 20px
+		>a
+			display block
+			padding-left 20px
+			width 222px
+			height 42px			
+			i
+				float left 
+				margin-top 8px
+				margin-right 8px
+			h1
+				float left
+				font-size 18px
+				font-weight 700
+				line-height 42px
+				color rgb(255,255,255)
+			span
+				line-height 42px
+				color rgb(255,255,255)
+		.home-box1
+			padding 15px
+			width 224px
+			height 226px
+			a
+				float left
+				display block
+				padding-left 5px
+				width 96px
+				height 33px
+				font-size 14px
+				line-height 33px
+				color rgb(51,51,51)
+				&:hover
+					text-decoration underline
+		&:nth-child(1)
+			>a
+				background-color rgb(250,134,134)
+		&:nth-child(2)
+			>a
+				background-color rgb(89,208,114)
+		&:nth-child(3)
+			>a
+				background-color rgb(80,177,227)
+		&:nth-child(4)
+			>a
+				background-color rgb(250,134,134)
+		&:nth-child(5)
+			>a
+				background-color rgb(75,176,229)
+	.home-col-1
+		float left
+		width 224px
+		height 261px
+		border 1px solid rgb(222,222,222)
+		background-color rgb(255,255,255)
+		.home1
+			position relative
+			margin 21px
+			width 182px 
+			height 36px
+			border-bottom 1px solid rgb(222,222,222)
+			>i
+				display inline
+			>h1
+				position absolute
+				top 0
+				left 32px
+				display inline
+				color rgb(102,102,102)
+				font-size 18px
+		.home2
+			margin 0 16px
+			width 192px
+			height 184px
+			a
+				padding-top 15px
+				float left	
+				display block
+				width 64px
+				height 80px
+				font-size 14px
+				color rgb(102,102,102)
+				line-height 1.6
+				text-align center
+				white-space nowrap
+				&:hover
+					text-decoration underline 
+				&:nth-child(1)
+					border-right 1px dashed rgb(222,222,222)
+				&:nth-child(2)
+					border-right 1px dashed rgb(222,222,222)				
+				&:nth-child(4)
+					border-top 1px dashed rgb(222,222,222)
+					border-right 1px dashed rgb(222,222,222)
+				&:nth-child(5)
+					border-top 1px dashed rgb(222,222,222)
+					border-right 1px dashed rgb(222,222,222)
+				&:nth-child(6)
+					border-top 1px dashed rgb(222,222,222)		
+	.home-col-4
+		float right
+		padding 21px
+		width 956px
+		height 261px
+		border 1px solid rgb(222,222,222)
+		background-color rgb(255,255,255)
+		.hom_col
+			position relative
+			width 916px
+			height 220px
+			// border 1px solid rgb(222,222,222)
+			.hom_col1
+				position relative
+				width 916px
+				height 36px
+				border-bottom 1px solid rgb(222,222,222)
+				>i
+					display inline
+				>h3
+					position absolute
+					top 5px
+					left 32px
+					display inline
+					color rgb(102,102,102)
+					font-size 18px
+			.hom_col2
+				position absolute
+				top 5px
+				right 0
+				>a					
+					font-size 14px
+					color rgb(102,102,102)
+					&:not(:last-of-type)
+						padding 0 15px
+						border-right 1px solid rgb(222,222,222)
+					&:nth-child(3)
+						padding-left 15px
+					&:hover
+						text-decoration underline
+			.hom_col3
+				padding-top 30px
+				width 916px
+				height 183px
+				.hom_col4
+					float left
+					width 219px
+					height 130px
+					border-right 1px dashed rgb(222,222,222)
+				.hom_col5
+					float left
+					padding-left 20px
+					width 239px
+					height 130px
+					border-right 1px dashed rgb(222,222,222)
+				.hom_col6
+					float left
+					padding-left 20px
+					width 239px
+					height 101px
+					border-right 1px dashed rgb(222,222,222)
+				.hom_col7
+					float left
+					padding-left 20px
+					width 219px
+					height 130px
+				h1
+					margin-bottom 27px
+					color rgb(51,51,51)
+					font-size 18px
+				a
+					float left
+					display block
+					width 98px
+					height 28px
+					color rgb(102,102,102)
+					font-size 14px
+					line-height 1.5
+					&.gj
+						color rgb(41,191,179)
+					&:hover
+						text-decoration underline
+	.home--box
+		float left
+		margin-right 20px
+		width 224px
+		height 257px
+		border 1px solid rgb(222,222,222)
+	.home---box
+		float right
+		width 712px
+		height 258px
+		border 1px solid rgb(222,222,222)
+	.bottom-box
+		padding 20px 0 16px 20px
+		width 1200px
+		height 344px
+		border 1px solid rgb(222,222,222)
+		background-color rgb(255,255,255)
+		a
+			float left
+			&:nth-child(n+6)
+				margin-top 4px
+			&:not(:first-of-type) img
+				width 229px 
+				height 148px
+		.img-link			
+			margin-right 3px
+			width 229px
+			height 300px
+		.hidden_link
+			display inline-block
+			margin-right 3px			
+			width 229px
+			height 148px
+	.cityDiv		
+		margin 0 auto
+		margin-top 30px
+		margin-bottom 28px
+		padding-top 23px
+		width 1200px
+		height 330px
+		border-top 1px solid rgb(222,222,222)
+		h1
+			float left
+			width 96px
+			height 40px
+			font-size 16px
+			color rgb(51,51,51)
+			line-height 25px
+			// &.hot
+			// 	line-height 25px
+		.city
+			float left
+			width 1100px
+			height 40px
+			font-size 14px
+			a
+				margin-right 20px
+				color rgb(102,102,102)
+				line-height 25px
+				&:hover
+					text-decoration underline
+			&.one
+				height 65px
+				a
+					line-height 25px
+			&.two
+				height 90px
+				a
+					line-height 25px
+			&.three
+				h5
+					display inline-block
+					font-size 14px 
+					color rgb(102,102,102)
+					line-height 25px			
+.footer
+	width 100%
+	background-color rgb(43,45,46)
+	background-image url(http://s.baixing.net/d/refashion-common/images/footer.png)	
+	height 185px
+	padding-top 40px
+	padding-bottom 40px
+	.footerDiv
+		margin 0 auto
+		width 1200px
+		// height 185px
+		text-align center
+		color rgb(192,192,192)
+		.footerDiv1
+			padding 2px 0
+			i
+				display inline
+				margin 0 5px
+			a
+				font-size 14px
+				&:hover
+					color rgb(255,68,102)
+					text-decoration underline
+		.footerDiv2
+			padding 5px 0 10px
+			span
+				font-size 14px
+			.copyright
+				margin-right 8px
+		.footerDiv3
+			a
+				margin 0 10px
+				&:hover
+					color rgb(255,68,102)
+				img
+					margin 20px 10px 0
+				span
+					position absolute
+					padding-top 33px
+					font-size 12px
+.fixedDiv
+	position fixed
+	right 30px
+	bottom 54px
+	width 54px
+	height 156px	
+	border 1px solid rgb(222,222,222)	
+	background-color rgb(255,255,255)
+	a
+		display block
+		width 54px
+		height 52px
+		&:not(:last-of-type)
+			border-bottom 1px solid rgb(222,222,222)	
+		&.dh
+			transition all 0.5s
+		i
+			padding 12px
+			width 52px
+			height 50px
+			&.fixedI
+				background-image url(../../../image/fixed_1.png)
+				&:hover
+					background-image none
+					background-color rgb(255,238,241) 
+					&:before
+						display block
+						width 40px
+						content '手机百姓'
+						font-size 14px
+						color rgb(255,68,102)				
+			&.fixedI_1
+				background-image url(../../../image/fixed_2.png)
+				&:hover
+					background-image none
+					background-color rgb(255,238,241) 
+					&:before
+						display block
+						width 40px
+						content '我要反馈'
+						font-size 14px
+						color rgb(255,68,102)
+			&.fixedI_2
+				background-image url(../../../image/fixed_3.png)
+				&:hover
+					background-image none
+					background-color rgb(255,238,241) 
+					&:before
+						display block
+						width 40px
+						content '返回顶部'
+						font-size 14px
+						color rgb(255,68,102)
+		&.sm
+			position relative			
+			&:hover div
+				display block
+				
+			div
+				display none
+				position absolute
+				top -52px
+				right 54px				
+				width 286px
+				height 155px
+				cursor default
+				background url(http://file.baixing.net/201607/5f9ce94e1f4976a5a1391f06fc9acd5a.png),no-repeat
+				img 
+					margin 16px 19px
+					width 100px
+					height 100px
+.fixedDiv1
+	position fixed
+	top 0
+	left 0
+	width 100%
+	background-color rgba(0,0,0,.5)
+	z-index 2
+	display none
+	.fixedDiv2
+		margin 264px auto
+		width 600px
+		height 456px
+		background-color rgb(255,255,255)
+		.fixedDiv3
+			padding-left 16px
+			padding-right 20px
+			width 600px
+			height 54px
+			border-bottom 1px solid rgb(229,229,229)
+			background-color rgb(240,240,240)
+			h1
+				float left
+				color rgb(51,51,51)
+				font-size 16px
+				font-weight bold
+				line-height 54px
+			span
+				float right 
+				font-size 20px
+				line-height 54px
+				color rgb(192,192,192)
+				cursor pointer
+				&:hover
+					color rgb(120,120,120)
+		.fixedDiv4
+			padding 16px 30px
+			width 600px
+			height 402px
+			.fixedDiv5
+				padding 10px 0
+				width 540px
+				height 68px
+				label
+					display inline-block
+					width 110px
+					font-size 14px
+					font-weight 800
+					color rgb(51,51,51)
+					line-height 24px
+					text-align right
+				span
+					display inline-block
+					font-size 14px
+					color rgb(51,51,51)
+					line-height 24px
+				.sp
+					float right					
+					padding-left 20px
+					width 430px					
+					a
+						display inline-block
+						color rgb(255,68,102)
+						&:hover
+							text-decoration underline
+				.sp1
+					display inline-block
+					padding-left 130px
+					width 540px
+			.fixedDiv6
+				padding 10px 0
+				width 540px
+				height 127px
+				label
+					display inline-block
+					width 110px
+					font-size 14px
+					color rgb(51,51,51)
+					font-weight 800
+					text-align right
+					line-height 24px
+				textarea
+					float right
+					padding 8px
+					margin-right 10px
+					display inline-block
+					width 400px
+					height 107px
+					color rgb(169,169,169)
+					border-radius 2px
+					line-height 24px
+					overflow hidden
+					border 1px solid rgb(221,221,221)
+					&:focus
+						outline 0
+						border 1px solid rgb(0,209,193)					
+			.fixedDiv7
+				padding 10px 0
+				width 540px
+				height 60px
+				label
+					float left
+					display inline-block
+					width 110px
+					font-size 14px
+					font-weight 800
+					color rgb(51,51,51)
+					text-align right 
+					line-height 24px
+				input
+					padding 8px
+					margin-left 20px
+					width 169px
+					height 40px
+					color rgb(169,169,169)
+					font-size 14px
+					line-height 24px
+					border 1px solid rgb(221,221,221)
+					border-radius 2px					
+					&:focus
+						outline 0
+						border 1px solid rgb(0,209,193)
+			.fixedDiv8
+				padding 10px 0
+				width 540px
+				height 60px
+				label
+					float left
+					display inline-block
+					margin-right 20px
+					width 110px
+					color rgb(51,51,51)
+					font-size 14px 
+					font-weight 800
+					line-height 24px
+					text-align right
+				input
+					float left
+					padding 8px
+					display inline-block
+					width 296px
+					height 40px
+					border-radius 2px
+					border 1px solid rgb(221,221,221)
+					&:focus
+						outline 0
+						border 1px solid rgb(0,209,193)
+			.fixedDiv9	
+				padding 10px 0		
+				width 540px
+				height 56px
+				span
+					display inline-block
+					width 540px
+					height 36px
+					input
+						// float left
+						display inline-block
+						margin-left 130px
+						width 114px
+						height 36px
+						font-size 14px
+						color rgb(255,255,255)
+						border-radius 2px
+						background-color rgb(255,68,102)
+						cursor pointer
+						outline 0
+						&:hover
+							background-color rgb(226,39,84)
+					a
+						margin-left 15px
+						font-size 14px
+						color rgb(255,68,102)
+						text-decoration underline
